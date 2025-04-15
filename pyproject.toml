@@ -1,0 +1,19 @@
+[project]
+name = "pp11-2-feature-homework-11-2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Petrov.A",email = "roman1artem2haha@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "pp11"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
